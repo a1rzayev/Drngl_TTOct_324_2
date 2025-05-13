@@ -1,0 +1,30 @@
+h1 {
+    color: yellow;
+    font-size: 80px;
+}
+
+h2 {
+    color: green;
+    font-size: 20px;
+}
+
+* {
+    color: blue;
+    font-size: 20px;
+}
+
+body {
+    background-color: #111111;
+    background-image: url("kobe-bryant.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+    /* padding: 10%, 40%, 10%, 40%;      можно и так сделать*/ 
+}
+
