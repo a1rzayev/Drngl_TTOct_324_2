@@ -36,3 +36,8 @@ HTML[HyperText Markup Language] - язык разметки(потому что 
 
 <u></u>(underlined) - подчёркнутый текст
 
+<ul></ul>(unordered list) - маркированный список без нумерации(очереди)
+
+<ol></ol>(ordered list) - нумерованный список с нумерацией(очередью)
+
+<li></li>(list item) - компонент в списке
