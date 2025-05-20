@@ -1,0 +1,30 @@
+h1 {
+    background-color: brown;
+    color: azure;
+}
+
+p{
+    color: green;
+}
+
+/* стили классов */
+.teacher{
+    color: black;
+}
+
+.boy{
+    color: blue;
+}
+
+.girl{
+    color: pink;
+}
+
+/* стили id(идентификаторов) */
+#xaqan{
+    font-style: italic;
+}
+
+#asif_muellim{
+    font-style: oblique;
+}
