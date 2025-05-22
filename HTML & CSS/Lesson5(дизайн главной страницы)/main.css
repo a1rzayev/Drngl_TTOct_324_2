@@ -1,0 +1,48 @@
+.boy{
+    color: blue;
+}
+
+.girl{
+    color: pink;
+}
+
+.self{
+    font-style: oblique;
+    background-color: gray;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #333333;
+    color: #ffffff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+nav a{
+    color: #561919;
+    text-decoration: none;
+
+}
+
+main{
+    padding: 20px;
+    background: #f0f0f0;
+}
+
+footer{
+    background: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
