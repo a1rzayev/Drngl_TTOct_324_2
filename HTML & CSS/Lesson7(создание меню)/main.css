@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #ffcc00;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Menu */
+  #menu1 {
+    float: right;
+  }
+  
+  #menu1 ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  #menu1 ul li {
+    position: relative;
+  }
+  
+  #menu1 ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    background-color: #ffcc00;
+    color: #333;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  #menu1 ul li a:hover {
+    background-color: #ffe066;
+  }
+  
+  /* Submenu */
+  #menu1 ul li ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #fff7cc;
+    padding: 10px 0;
+    min-width: 150px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    flex-direction: column;
+  }
+  
+  #menu1 ul li:hover ul {
+    display: block;
+  }
+  
+  #menu1 ul li ul li {
+    width: 100%;
+  }
+  
+  #menu1 ul li ul li a {
+    padding: 10px 15px;
+    background-color: #fff7cc;
+    color: #333;
+  }
+  
+  #menu1 ul li ul li a:hover {
+    background-color: #ffe066;
+  }
+  header::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .hero {
+    background: url('https://cdn.pixabay.com/photo/2016/03/27/20/54/lego-1287184_960_720.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 12px 25px;
+    background-color: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: #005fa3;
+  }
+  
