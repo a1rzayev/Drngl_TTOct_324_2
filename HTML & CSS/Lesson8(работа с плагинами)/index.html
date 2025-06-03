@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Карусель на сайте</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <link rel="stylesheet" href="main.css"/>
+    </head>
+    <body>
+        <h1>Добро пожаловать на наш сайт-карусель</h1>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://picsum.photos/id/1015/800/400" alt="slide1">
+                    <p>Первый слайд</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://picsum.photos/id/1016/800/400" alt="slide2">
+                    <p>Второй слайд</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://picsum.photos/id/1018/800/400" alt="slide3">
+                    <p>Третий слайд</p>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+        
+    </body>
+</html>
