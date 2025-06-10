@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGO Adventures - Posts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-brick"></i>
+                <h1>LEGO Adventures</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="posts.html" class="active">Posts</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>LEGO Adventure Posts</h1>
+            <p>Explore our collection of LEGO building adventures and stories</p>
+        </section>
+
+        <section class="posts-filter">
+            <div class="search-box">
+                <input type="text" placeholder="Search posts..." id="search-input">
+                <button type="button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="city">City</button>
+                <button class="filter-btn" data-category="space">Space</button>
+                <button class="filter-btn" data-category="castle">Castle</button>
+            </div>
+        </section>
+
+        <section class="blog-posts">
+            <div class="posts-grid">
+                <article id="lego-city" class="post-card" data-category="city">
+                    <img src="https://via.placeholder.com/300x200" alt="LEGO City Adventure">
+                    <div class="post-content">
+                        <h3>Building a LEGO City</h3>
+                        <p class="post-meta">Posted on March 15, 2024</p>
+                        <p>Join us on an exciting journey as we build an entire LEGO city from scratch. From skyscrapers to parks, we'll show you how to create a vibrant urban landscape with LEGO bricks.</p>
+                        <div class="post-tags">
+                            <span class="tag">City</span>
+                            <span class="tag">Architecture</span>
+                        </div>
+                        <button class="read-more">Read Full Story</button>
+                    </div>
+                </article>
+
+                <article id="space-mission" class="post-card" data-category="space">
+                    <img src="https://via.placeholder.com/300x200" alt="LEGO Space Mission">
+                    <div class="post-content">
+                        <h3>Space Mission: LEGO Edition</h3>
+                        <p class="post-meta">Posted on March 10, 2024</p>
+                        <p>Exploring the final frontier with our custom LEGO space station. Learn how to build your own space station with advanced building techniques and custom minifigures.</p>
+                        <div class="post-tags">
+                            <span class="tag">Space</span>
+                            <span class="tag">Science</span>
+                        </div>
+                        <button class="read-more">Read Full Story</button>
+                    </div>
+                </article>
+
+                <article id="medieval-castle" class="post-card" data-category="castle">
+                    <img src="https://via.placeholder.com/300x200" alt="LEGO Castle Adventure">
+                    <div class="post-content">
+                        <h3>Medieval Castle Adventure</h3>
+                        <p class="post-meta">Posted on March 5, 2024</p>
+                        <p>Building a magnificent medieval castle with LEGO bricks. Discover the secrets of creating realistic castle architecture and medieval scenes.</p>
+                        <div class="post-tags">
+                            <span class="tag">Castle</span>
+                            <span class="tag">Medieval</span>
+                        </div>
+                        <button class="read-more">Read Full Story</button>
+                    </div>
+                </article>
+
+                <article class="post-card" data-category="city">
+                    <img src="https://via.placeholder.com/300x200" alt="LEGO Train Station">
+                    <div class="post-content">
+                        <h3>Train Station Masterpiece</h3>
+                        <p class="post-meta">Posted on March 1, 2024</p>
+                        <p>Creating a detailed LEGO train station with working trains and realistic details. Perfect for your LEGO city layout!</p>
+                        <div class="post-tags">
+                            <span class="tag">City</span>
+                            <span class="tag">Trains</span>
+                        </div>
+                        <button class="read-more">Read Full Story</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="pagination">
+            <button class="pagination-btn active">1</button>
+            <button class="pagination-btn">2</button>
+            <button class="pagination-btn">3</button>
+            <button class="pagination-btn next">Next <i class="fas fa-chevron-right"></i></button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2024 LEGO Adventures Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
